@@ -66,6 +66,7 @@ Repeate these steps for each of the field names defined in step 2. </br>
 Now you will have a Switch element with all our cases defined. </br>
 <img src="https://github.com/user-attachments/assets/06329a8b-8b90-4912-b653-9b8071a97b5b" width="800"> </br>
 Now for each switch case we will add a Variable / Set Variable element, we will use a similar split expression like we did in the previous step except we want the second element in the array for this we will use [1] to get it. 
+<img src="https://github.com/user-attachments/assets/a454bc13-f033-4592-9c63-91b9c9667e44" width="800"> </img>
 
 Repeat this for each switch case.
 

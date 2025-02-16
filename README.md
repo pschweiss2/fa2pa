@@ -51,6 +51,9 @@ Now we have the form data in a useable format, we can start turning the form dat
 For what to switch On - You need to split your data again to find the field Names, using the expression builder to split with the = as the delimiter and the [0] tells the expression you want the first element of the array that is returend. In short this is saying split the items from the Apply to each loop and give me what's on the left hand side of the = sign.
 
 ### 6) Initialize your variables
+We need to initialize all the variables we will need prior to parsing the form content. Add a Variable / Initialize Variable element for of each of the form variables to be extracted. In my use case they are all type String, but you can adjust that based on your use case. 
+
+### 7) Set your variables 
 Here's the part that depending on the size of your form can get tedious and full disclosure, there is most likely a more efficient way to do this, but this is what worked for me. Please feel free to comment with any ideas here! 
 Inside the switch element we will define each field name and what do it if that field name is found in the loop. To do this click the plus icon under the Switch. In the picture below we are talking about the plus icon on the LEFT </br>
 <img src="https://github.com/user-attachments/assets/8c515fde-3946-4d5b-a54f-c9a141dc1add" width="300"> </br>
@@ -59,19 +62,12 @@ The paramters for each case is going to be the names we defined in step 2, I als
 Repeate these steps for each of the field names defined in step 2. </br>
 Now you will have a Switch element with all our cases defined. </br>
 <img src="https://github.com/user-attachments/assets/06329a8b-8b90-4912-b653-9b8071a97b5b" width="800"> </br>
-Now for each switch case we will add a Variable / Initialize Variable element, we will use a similar split expression like we did in the previous step except we want the second element in the array for this we will use [1] to get it. 
-<img src="https://github.com/user-attachments/assets/f9560c24-b147-495f-95c6-d5eb40aed6d3" width="800"> </br>
+Now for each switch case we will add a Variable / Set Variable element, we will use a similar split expression like we did in the previous step except we want the second element in the array for this we will use [1] to get it. 
+
 Repeat this for each switch case.
 
 ### 7) Do WHAT EVER you want!
 From here you now have usable variables you can use to drive any number of different actions.
-
-
-
-
-
-
-
 
 
 

@@ -14,6 +14,9 @@ If you find my work helpful, feel free to buy me a coffee!
 [![Buy Me a Coffee](https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png)](https://www.buymeacoffee.com/petes)
 
 <hr style="border: 2px solid black; width: 50%;">
+### Here's the nuts and bolts of the project.
+Before we get to the How To, here's a couple of items I am working to figure out in future iterations of this.
+* I ran this as "Anyone can trigger the flow". I wasn't ready to mess with authentication, my use case didn't demand it, but I would like to figure that out. 
 
 ### 1) Build your form in FormAssembly, for the sake of example we are using a basic contact us form in this example. 
 <img src="https://github.com/user-attachments/assets/90c776fd-306c-4a34-b31f-ca0b7b6c81a4" alt="Description" width="500">

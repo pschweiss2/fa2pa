@@ -1,0 +1,67 @@
+Below is an example of what FormAssembly sends over with the HTTPS connector.
+
+{
+    "headers": {
+        "Accept": "*/*",
+        "Host": "prod-177.westus.logic.azure.com",
+        "Max-Forwards": "10",
+        "Referer": "https://www.[yourFaUrl].org/responses/processor",
+        "User-Agent": "FormAssembly",
+        "X-ARR-LOG-ID": "9018d544-d085-4e59-833d-xxxxxxx",
+        "CLIENT-IP": "x.x.x.x:36064",
+        "DISGUISED-HOST": "prod-177.westus.logic.azure.com",
+        "X-SITE-DEPLOYMENT-ID": "flowfe-prod-by-rp00-app-02",
+        "WAS-DEFAULT-HOSTNAME": "flowfe-prod-by-rp00-app-02.flow-prod-by-rp00-ase-02.p.azurewebsites.net",
+        "X-Forwarded-Proto": "https",
+        "X-AppService-Proto": "https",
+        "X-ARR-SSL": "2048|256|CN=Microsoft Azure RSA TLS Issuing CA 07, O=Microsoft Corporation, C=US|CN=westus.logic.azure.com, O=Microsoft Corporation, L=Redmond, S=WA, C=US",
+        "X-Forwarded-TlsVersion": "1.2",
+        "X-Forwarded-For": "x.x.x.x:36064",
+        "X-Original-URL": "/workflows/8cab9357e592408fb6b510ef1f1b582b/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=xxxxxxxxxxxx",
+        "X-WAWS-Unencoded-URL": "/workflows/8cab9357e592408fb6b510ef1f1b582b/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=xxxxxxxxx",
+        "Content-Length": "210",
+        "Content-Type": "application/x-www-form-urlencoded; charset=utf-8"
+    },
+    "body": {
+        "$content-type": "application/x-www-form-urlencoded; charset=utf-8",
+        "$content": "Zmlyc3ROYW1lPVBldGVyJmxhc3ROYW1lPVNjaHdlaXNzJmVtYWlsPXRlc3QlNDBlbWFpbC5jb20mcGhvbmVOdW1iZXI9MzE0LTU1NS01NTU1JnByZWZNZXRob2Q9cHJlZlBob25lJmNvbnZlbmllbnRUaW1lPXRpbWVNb3JuaW5nJnRpbWVPdGhlclNwZWNpZnk9JmlucXVpcnk9SSt3YW50K3RvK2xlYXJuK3RoaW5ncy4mbm93VGltZT0wMiUyRjE2JTJGMjAyNSswMCUzQTQx",
+        "$formdata": [
+            {
+                "key": "firstName",
+                "value": "Peter"
+            },
+            {
+                "key": "lastName",
+                "value": "Schweiss"
+            },
+            {
+                "key": "email",
+                "value": "test@email.com"
+            },
+            {
+                "key": "phoneNumber",
+                "value": "314-555-5555"
+            },
+            {
+                "key": "prefMethod",
+                "value": "prefPhone"
+            },
+            {
+                "key": "convenientTime",
+                "value": "timeMorning"
+            },
+            {
+                "key": "timeOtherSpecify",
+                "value": ""
+            },
+            {
+                "key": "inquiry",
+                "value": "I want to learn things."
+            },
+            {
+                "key": "nowTime",
+                "value": "02/16/2025 00:41"
+            }
+        ]
+    }
+}

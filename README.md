@@ -28,8 +28,9 @@ Before we get to the How To, here's a couple of items I am working to figure out
 :fire: HOT tip - I always put my connectors on the After form submitted trigger, that way if there's an error you still capture all the data and can reprocess if necesary
 By default each feild has an ambigious name (see below) I recommend updating this to more recognizable names, you'll thank me later on! </br>
 <img src="https://github.com/user-attachments/assets/57c61830-6877-438d-8eff-3a24af30d4d5" width="800"> </br>
-I recommend using logical names, see below...
-<img src="https://github.com/user-attachments/assets/c8397fa2-c0c8-4962-bfc9-5e282a6697fc" width="800"> </br>
+I recommend using logical names, see below. </br>
+<img src="https://github.com/user-attachments/assets/7b0a4e60-0be3-4b19-8bad-479a2cdf891b" width="800">/img>
+
 You can also add in variables outside of the form using the additional values area. See below.
 <img src="https://github.com/user-attachments/assets/df75bdc6-e644-40a1-a1bd-3fa9733d0044" width="800"> </br>
 
@@ -52,6 +53,8 @@ For what to switch On - You need to split your data again to find the field Name
 
 ### 6) Initialize your variables
 We need to initialize all the variables we will need prior to parsing the form content. Add a Variable / Initialize Variable element for of each of the form variables to be extracted. In my use case they are all type String, but you can adjust that based on your use case. 
+![image](https://github.com/user-attachments/assets/99e7ff82-1756-4468-94b3-2c65455cb121)
+
 
 ### 7) Set your variables 
 Here's the part that depending on the size of your form can get tedious and full disclosure, there is most likely a more efficient way to do this, but this is what worked for me. Please feel free to comment with any ideas here! 

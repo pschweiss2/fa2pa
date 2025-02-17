@@ -69,9 +69,15 @@ Now for each switch case we will add a Variable / Set Variable element, we will 
 <img src="https://github.com/user-attachments/assets/a454bc13-f033-4592-9c63-91b9c9667e44" width="800"> </img>
 
 Repeat this for each switch case.
+Your switch element will look like this at the end. 
+![image](https://github.com/user-attachments/assets/82eab344-66e3-4022-8aa6-200e9a8e5d6f)
+
 
 ### 7) Do WHAT EVER you want!
 From here you now have usable variables you can use to drive any number of different actions.
+
+You will end up with a flow that looks something like this:
+![image](https://github.com/user-attachments/assets/e5ae74c3-0d0c-4859-a5c0-18c8bacb9d0e)
 
 
 

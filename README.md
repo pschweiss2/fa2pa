@@ -76,8 +76,5 @@ Your switch element will look like this at the end.
 ### 7) Do WHAT EVER you want!
 From here you now have usable variables you can use to drive any number of different actions.
 
-You will end up with a flow that looks something like this:
+You will end up with a flow that looks something like tthe below. For the sake of example I put a Outlook and Teams element here, but you can use this data now with virtually anything that connects to Power Automate.
 ![image](https://github.com/user-attachments/assets/e5ae74c3-0d0c-4859-a5c0-18c8bacb9d0e)
-
-
-
